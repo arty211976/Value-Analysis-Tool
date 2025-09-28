@@ -43,7 +43,7 @@ dependencies = [
     "crewai>=0.148.0",
     "crewai-tools>=0.51.1",
     "openai>=1.97.0",
-    "litellm>=1.67.0",
+    "litellm==1.72.6",
     "perplexityai>=0.12.0",
     "langchain>=0.3.25",
     "langchain-core>=0.3.63",
@@ -52,7 +52,7 @@ dependencies = [
     "python-docx>=1.2.0",
     "pandas>=2.3.1",
     "numpy>=1.26.4",
-    "chromadb>=0.5.10",
+    "chromadb>=0.5.23",
     "requests>=2.32.4",
     "httpx>=0.28.1",
     "python-dotenv>=1.1.1",
@@ -60,7 +60,7 @@ dependencies = [
     "json5>=0.12.0",
     "python-dateutil>=2.9.0",
     "regex>=2024.11.6",
-    "tiktoken>=0.7.0",
+    "tiktoken>=0.8.0",
     "typing_extensions>=4.14.1",
     "colorama>=0.4.6",
 ]
@@ -84,10 +84,10 @@ full = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/your-username/Value_Analysis"
-Documentation = "https://github.com/your-username/Value_Analysis#readme"
-Repository = "https://github.com/your-username/Value_Analysis"
-"Bug Tracker" = "https://github.com/your-username/Value_Analysis/issues"
+Homepage = "https://github.com/arty211976/Value-Analysis-Tool"
+Documentation = "https://github.com/arty211976/Value-Analysis-Tool#readme"
+Repository = "https://github.com/arty211976/Value-Analysis-Tool"
+"Bug Tracker" = "https://github.com/arty211976/Value-Analysis-Tool/issues"
 
 [project.scripts]
 value-analysis = "Value_AnalysisGUI:main"
