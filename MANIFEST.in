@@ -1,0 +1,21 @@
+include README.md
+include LICENSE
+include CONTRIBUTING.md
+include REQUIREMENTS_CLEANUP_SUMMARY.md
+include requirements*.txt
+include setup.py
+recursive-include .github *
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+recursive-exclude * *.so
+recursive-exclude * .DS_Store
+recursive-exclude * .git*
+recursive-exclude * .env*
+recursive-exclude * *.log
+recursive-exclude * *.docx
+recursive-exclude * *.pdf
+recursive-exclude * debug_*
+recursive-exclude * temp*
+recursive-exclude * tmp*
+recursive-exclude venv *
+recursive-exclude .venv *

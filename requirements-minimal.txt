@@ -1,0 +1,45 @@
+# =============================================================================
+# Value Analysis Tool - Minimal Requirements
+# =============================================================================
+# Minimal dependencies for core functionality only
+# Use this if you want to install only essential packages
+
+# Core framework
+crewai==0.148.0
+crewai-tools==0.51.1
+
+# LLM providers
+openai==1.97.0
+litellm==1.67.0
+perplexityai==0.12.0
+
+# LangChain (required by CrewAI)
+langchain==0.3.25
+langchain-core==0.3.63
+langchain-openai==0.2.14
+
+# Document processing
+PyMuPDF==1.26.3
+python-docx==1.2.0
+
+# Data processing
+pandas==2.3.1
+numpy==1.26.4
+
+# Vector database
+chromadb==0.5.10
+
+# HTTP requests
+requests==2.32.4
+httpx==0.28.1
+
+# Configuration
+python-dotenv==1.1.1
+pydantic==2.11.7
+
+# Utilities
+json5==0.12.0
+python-dateutil==2.9.0.post0
+tiktoken==0.7.0
+typing_extensions==4.14.1
+colorama==0.4.6
